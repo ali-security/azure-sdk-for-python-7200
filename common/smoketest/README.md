@@ -57,7 +57,7 @@ export COSMOS_KEY=""
 
 Install the libraries required using pip:
 ```
-pip install -r requiriments.txt
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r requiriments.txt
 ```
 
 In the \SmokeTest\ directory, run Program.py
@@ -70,8 +70,8 @@ In order to run the samples with the asynchronous clients, **python 3.5 or great
 
 Install both requirements.txt and requirements_async.txt:
 ```
-pip install -r requiriments.txt
-pip install -r requiriments_async.txt
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r requiriments.txt
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r requiriments_async.txt
 ```
 
 If a python version below 3.5 is being used, it is still possible to run the samples. When it gets to the async tests a message `'Async not supported'` will be displayed.

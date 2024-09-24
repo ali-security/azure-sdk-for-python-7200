@@ -72,7 +72,7 @@ source ~/venv2/bin/activate
 
 ### Install packages
 ```sh
-pip install -r dev_requirements.txt .
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r dev_requirements.txt .
 ```
 
 ### Run tests

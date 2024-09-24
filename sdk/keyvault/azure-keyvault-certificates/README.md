@@ -16,7 +16,7 @@ and other secrets
 Install [azure-keyvault-certificates][pypi_package_certificates] and
 [azure-identity][azure_identity_pypi] with [pip][pip]:
 ```Bash
-pip install azure-keyvault-certificates azure-identity
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-keyvault-certificates azure-identity
 ```
 [azure-identity][azure_identity] is used for Azure Active Directory
 authentication as demonstrated below.

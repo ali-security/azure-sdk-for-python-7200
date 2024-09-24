@@ -27,7 +27,7 @@ To run these samples, first install the Azure Identity and Key Vault Secrets
 client libraries:
 
 ```commandline
-pip install azure-identity azure-keyvault-secrets
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity azure-keyvault-secrets
 ```
 
 ## Contents

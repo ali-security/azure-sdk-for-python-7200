@@ -14,7 +14,7 @@ Azure Event Grid is a fully-managed intelligent event routing service that allow
 Install the Azure Event Grid client library for Python with [pip][pip]:
 
 ```bash
-pip install azure-eventgrid
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-eventgrid
 ```
 
 * An existing Event Grid topic or domain is required. You can create the resource using [Azure Portal][azure_portal_create_EG_resource] or [Azure CLI][azure_cli_link]

@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 # This is a "fake" package, meaning it's not supposed to be released but used
-# locally with "pip install -e"
+# locally with "pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -e"
 
 DEPENDENCIES = [
     # Packaging

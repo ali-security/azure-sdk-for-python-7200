@@ -23,7 +23,7 @@ of this package please look at our [migration guide to move from Service Bus V0.
 Install the Azure Service Bus client library for Python with [pip][pip]:
 
 ```Bash
-pip install azure-servicebus
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-servicebus
 ```
 
 ### Prerequisites: 

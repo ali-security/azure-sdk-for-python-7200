@@ -41,13 +41,13 @@ These sample programs show common scenarios for the Text Analytics client's offe
 1. Install the Azure Text Analytics client library for Python with [pip][pip]:
 
 ```bash
-pip install azure-ai-textanalytics --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-ai-textanalytics --pre
 ```
 For more information about how the versioning story of the SDK corresponds to the versioning story of the service's API, see [here][versioning_story_readme].
 
 * If authenticating with Azure Active Directory, make sure you have [azure-identity][azure_identity_pip] installed:
   ```bash
-  pip install azure-identity
+  pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity
   ```
 
 2. Clone or download this sample repository

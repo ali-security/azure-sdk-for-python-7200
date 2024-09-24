@@ -23,7 +23,7 @@ from form documents. It includes the following main functionalities:
 Install the Azure Form Recognizer client library for Python with [pip][pip]:
 
 ```bash
-pip install azure-ai-formrecognizer --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-ai-formrecognizer --pre
 ```
 
 > Note: This version of the client library defaults to the v2.1-preview version of the service
@@ -109,7 +109,7 @@ name for your resource in order to use this type of authentication.
 To use the [DefaultAzureCredential][default_azure_credential] type shown below, or other credential types provided
 with the Azure SDK, please install the `azure-identity` package:
 
-```pip install azure-identity```
+```pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity```
 
 You will also need to [register a new AAD application and grant access][register_aad_app] to
 Form Recognizer by assigning the `"Cognitive Services User"` role to your service principal.

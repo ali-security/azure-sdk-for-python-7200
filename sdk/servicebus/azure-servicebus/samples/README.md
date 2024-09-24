@@ -95,7 +95,7 @@ If you do not have an existing Azure account, you may sign up for a free trial o
 
 1. Install the Azure Service Bus client library for Python with [pip](https://pypi.org/project/pip/):
 ```bash
-pip install azure-servicebus
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-servicebus
 ```
 2. Clone or download this sample repository.
 3. Open the sample folder in Visual Studio Code or your IDE of choice.

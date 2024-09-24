@@ -36,9 +36,9 @@ or execute the various commands available in the toolbox.
     Install the development requirements for a specific library (located in the `dev_requirements.txt` file at the root of the library), [Tox][tox], [Tox monorepo][tox_monorepo] and an editable install of your library:
     ```
     azure-sdk-for-python> cd sdk/formrecognizer/azure-ai-formrecognizer
-    azure-sdk-for-python/sdk/formrecognizer/azure-ai-formrecognizer> pip install -r dev_requirements.txt
-    azure-sdk-for-python/sdk/formrecognizer/azure-ai-formrecognizer> pip install tox tox-monorepo
-    azure-sdk-for-python/sdk/formrecognizer/azure-ai-formrecognizer> pip install -e .
+    azure-sdk-for-python/sdk/formrecognizer/azure-ai-formrecognizer> pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r dev_requirements.txt
+    azure-sdk-for-python/sdk/formrecognizer/azure-ai-formrecognizer> pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' tox tox-monorepo
+    azure-sdk-for-python/sdk/formrecognizer/azure-ai-formrecognizer> pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -e .
     ```
 
 5.  Create a .env file to store your secrets.

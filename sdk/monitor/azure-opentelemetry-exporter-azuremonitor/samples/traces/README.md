@@ -18,7 +18,7 @@ These code samples show common champion scenario operations with the AzureMonito
 ## Installation
 
 ```sh
-$ pip install azure-opentelemetry-exporter-azuremonitor --pre
+$ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-opentelemetry-exporter-azuremonitor --pre
 ```
 
 ## Run the Applications
@@ -41,7 +41,7 @@ $ python sample_trace.py
 * Run the sample
 
 ```sh
-$ pip install opentelemetry-instrumentation-requests
+$ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' opentelemetry-instrumentation-requests
 $ # from this directory
 $ python sample_request.py
 ```
@@ -53,8 +53,8 @@ $ python sample_request.py
 * Run the sample
 
 ```sh
-$ pip install opentelemetry-instrumentation-requests
-$ pip install opentelemetry-instrumentation-wsgi
+$ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' opentelemetry-instrumentation-requests
+$ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' opentelemetry-instrumentation-wsgi
 $ # from this directory
 $ python sample_server.py
 ```

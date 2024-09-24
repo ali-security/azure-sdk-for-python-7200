@@ -24,7 +24,7 @@ az appconfig create --name <config-store-name> --resource-group <resource-group-
 Install the Azure App Configuration client library for Python with pip:
 
 ```commandline
-pip install azure-appconfiguration
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-appconfiguration
 ```
 
 ## Contents

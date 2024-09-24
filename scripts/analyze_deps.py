@@ -234,7 +234,7 @@ if __name__ == '__main__':
         try:
             from jinja2 import Environment, FileSystemLoader
         except:
-            print("Jinja2 is required to render the dependency report. Please install with 'pip install Jinja2' to use this option.")
+            print("Jinja2 is required to render the dependency report. Please install with 'pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' Jinja2' to use this option.")
             sys.exit(1)
 
     if args.wheeldir:

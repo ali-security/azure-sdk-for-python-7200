@@ -43,7 +43,7 @@ All of these samples need the endpoint to your Form Recognizer resource ([instru
 1. Install the Azure Form Recognizer client library for Python with [pip][pip]:
 
 ```bash
-pip install azure-ai-formrecognizer --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-ai-formrecognizer --pre
 ```
 
 2. Clone or download this sample repository

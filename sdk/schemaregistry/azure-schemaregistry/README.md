@@ -13,7 +13,7 @@ schema identifiers rather than full schemas.
 Install the Azure Schema Registry client library and Azure Identity client library for Python with [pip][pip]:
 
 ```Bash
-pip install azure-schemaregistry azure-identity
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-schemaregistry azure-identity
 ```
 
 ### Prerequisites: 

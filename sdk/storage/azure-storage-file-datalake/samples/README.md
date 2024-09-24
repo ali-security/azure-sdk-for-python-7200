@@ -47,7 +47,7 @@ Several DataLake Storage Python SDK samples are available to you in the SDK's Gi
 1. Install the Azure Storage Datalake client library for Python with [pip](https://pypi.org/project/pip/):
 
 ```bash
-pip install azure-storage-file-datalake --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-storage-file-datalake --pre
 ```
 
 2. Clone or download this sample repository

@@ -9,7 +9,7 @@
 Install the opentelemetry python for Python with [pip](https://pypi.org/project/pip/):
 
 ```bash
-pip install azure-core-tracing-opentelemetry
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-core-tracing-opentelemetry
 ```
 
 Now you can use opentelemetry for Python as usual with any SDKs that are compatible

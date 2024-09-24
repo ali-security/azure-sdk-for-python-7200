@@ -20,7 +20,7 @@ This preview package for Python includes ADLS Gen2 specific API support made ava
 Install the Azure DataLake Storage client library for Python with [pip](https://pypi.org/project/pip/):
 
 ```bash
-pip install azure-storage-file-datalake --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-storage-file-datalake --pre
 ```
 
 ### Create a storage account

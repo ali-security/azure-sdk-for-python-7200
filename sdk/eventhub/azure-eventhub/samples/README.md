@@ -83,18 +83,18 @@ There, you can also find detailed instructions for using the Azure CLI, Azure Po
 
 1. Install the Azure Event Hubs client library for Python with [pip](https://pypi.org/project/pip/):
 ```bash
-pip install azure-eventhub
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-eventhub
 ```
 
 To run samples that utilize the Azure Active Directory for authentication, please install the `azure-identity` library:
 ```bash
-pip install azure-identity
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity
 ```
 
 To run receiving samples that utilize blob checkpoint store for persist checkpoint, please install the corresponding checkpoint store library:
 ```bash
-pip install azure-eventhub-checkpointstoreblob  # sync version
-pip install azure-eventhub-checkpointstoreblob-aio  # async version
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-eventhub-checkpointstoreblob  # sync version
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-eventhub-checkpointstoreblob-aio  # async version
 ```
 2. Clone or download this sample repository.
 3. Open the sample folder in Visual Studio Code or your IDE of choice.

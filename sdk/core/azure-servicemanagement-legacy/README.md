@@ -44,7 +44,7 @@ pip uninstall azure
 To install via the Python Package Index (PyPI), type:
 
 ```shell
-pip install azure-servicemanagement-legacy
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-servicemanagement-legacy
 ```
 
 

@@ -18,7 +18,7 @@ Read more about Azure Communication Services [here](https://docs.microsoft.com/a
 Install the Azure Communication SMS client library for Python with [pip](https://pypi.org/project/pip/):
 
 ```bash
-pip install azure-communication-sms
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-communication-sms
 ```
 
 ## Key concepts

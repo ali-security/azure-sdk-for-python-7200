@@ -14,11 +14,11 @@ from typing import List, Tuple, Any, Union
 
 try:
     import msrestazure
-except:  # Install msrestazure. Would be best to mock it, since we don't need it, but all scenarios I know are fine with a pip install for now
+except:  # Install msrestazure. Would be best to mock it, since we don't need it, but all scenarios I know are fine with a pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' for now
     import subprocess
 
     subprocess.call(
-        sys.executable + " -m pip install msrestazure", shell=True
+        sys.executable + " -m pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' msrestazure", shell=True
     )  # Use shell to use venv if available
 
 try:
@@ -27,7 +27,7 @@ except:
     import subprocess
 
     subprocess.call(
-        sys.executable + " -m pip install jinja2", shell=True
+        sys.executable + " -m pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' jinja2", shell=True
     )  # Use shell to use venv if available
     from jinja2 import Template, FileSystemLoader, Environment
 

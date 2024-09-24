@@ -109,8 +109,8 @@ echo -e `az vm run-command invoke \
     --scripts "sudo apt update && sudo apt install python-pip python3-pip -y --no-install-recommends && \
                git clone https://github.com/Azure/azure-sdk-for-python.git --depth 1 --single-branch --branch master /sdk && \
                cd /sdk/sdk/identity/azure-identity/tests/managed-identity-live && \
-               pip install setuptools wheel && pip3 install setuptools wheel && \
-               pip install -r requirements.txt && pip3 install -r requirements.txt"`
+               pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' setuptools wheel && pip3 install setuptools wheel && \
+               pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r requirements.txt && pip3 install -r requirements.txt"`
 ```
 
 # Run tests

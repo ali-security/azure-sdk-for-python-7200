@@ -17,7 +17,7 @@
 
 - Open a terminal, install latest azure-identity by running 
 ```python
-pip install azure-identity -i https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python%40Local/pypi/simple/
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity -i https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python%40Local/pypi/simple/
 ```
 
 - Run run-test.py

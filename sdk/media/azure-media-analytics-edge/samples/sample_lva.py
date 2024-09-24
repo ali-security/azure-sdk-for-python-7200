@@ -2,7 +2,7 @@
 import json
 import os 
 from azure.media.analyticsedge import *
-from azure.iot.hub import IoTHubRegistryManager #run pip install azure-iot-hub to get this package
+from azure.iot.hub import IoTHubRegistryManager #run pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-iot-hub to get this package
 from azure.iot.hub.models import CloudToDeviceMethod, CloudToDeviceMethodResult
 from datetime import time
 

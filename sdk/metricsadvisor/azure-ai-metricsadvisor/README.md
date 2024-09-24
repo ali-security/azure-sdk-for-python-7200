@@ -15,7 +15,7 @@ Metrics Advisor is a scalable real-time time series monitoring, alerting, and ro
 Install the Azure Metrics Advisor client library for Python with pip:
 
 ```commandline
-pip install azure-ai-metricsadvisor --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-ai-metricsadvisor --pre
 ```
 
 ### Prerequisites

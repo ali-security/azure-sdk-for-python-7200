@@ -155,7 +155,7 @@ takes parameters as a string.
   library requiring azure-core 1.0.0b1 or azure-core 1.0.0b2, you must explicitly install
   the specific version of azure-core as well. For example:
 
-  `pip install azure-core==1.0.0b2 azure-storage-file==12.0.0b2`
+  `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-core==1.0.0b2 azure-storage-file==12.0.0b2`
 
 **Fixes and improvements**
 - Fix where content-type was being added in the request when not mentioned explicitly.
@@ -183,7 +183,7 @@ takes parameters as a string.
   library requiring azure-core 1.0.0b1, you must explicitly install azure-core
   1.0.0b1 as well. For example:
 
-  `pip install azure-core==1.0.0b1 azure-storage-file==12.0.0b1`
+  `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-core==1.0.0b1 azure-storage-file==12.0.0b1`
 
 **Fixes and improvements**
 - Fix for closing file handles - continuation token was not being passed to subsequent calls.

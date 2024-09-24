@@ -61,7 +61,7 @@ parser.add_argument(
     dest="install_in_develop_mode",
     default=True,
     action="store_false",
-    help="Add this argument if you would prefer to install the package with a simple `pip install` versus `pip install -e`",
+    help="Add this argument if you would prefer to install the package with a simple `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/'` versus `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -e`",
 )
 # this is a hack to support generating docs for the single package that doesn't support develop mode. It will be removed when we
 # migrate to generating docs on a per-package cadence.

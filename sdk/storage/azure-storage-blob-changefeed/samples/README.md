@@ -32,7 +32,7 @@ Several Storage Blobs Python SDK samples are available to you in the SDK's GitHu
 1. Install the Azure Storage Blob client library for Python with [pip](https://pypi.org/project/pip/):
 
 ```bash
-pip install azure-storage-blob
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-storage-blob
 ```
 
 2. Clone or download this sample repository

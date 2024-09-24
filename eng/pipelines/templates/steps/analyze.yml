@@ -22,7 +22,7 @@ steps:
     # (https://github.com/Azure/azure-sdk-for-python/issues/8697)
   - script: |
       cd eng/versioning
-      pip install -r requirements.txt
+      pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r requirements.txt
       python find_invalid_versions.py --always-succeed --service=${{parameters.ServiceDirectory}}
     displayName: Find Invalid Versions
 

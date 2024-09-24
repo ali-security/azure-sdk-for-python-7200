@@ -13,7 +13,7 @@ Azure Communication Administration client package is intended to be used to setu
 Install the Azure Communication Administration client library for Python with [pip](https://pypi.org/project/pip/):
 
 ```bash
-pip install azure-communication-administration
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-communication-administration
 ```
 
 # Key concepts

@@ -16,6 +16,6 @@ COPY --from=repo /azure-sdk-for-python/sdk/core/azure-core /sdk/core/azure-core
 COPY --from=repo /azure-sdk-for-python/sdk/keyvault/azure-keyvault-secrets /sdk/keyvault/azure-keyvault-secrets
 
 WORKDIR /sdk/identity/azure-identity/tests/managed-identity-live
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' --no-cache-dir -r requirements.txt
 
 CMD [ "pytest", "-rs", "-v", "--log-level=DEBUG" ]

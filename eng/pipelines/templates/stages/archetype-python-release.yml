@@ -91,7 +91,7 @@ stages:
 
                       - script: |
                           set -e
-                          pip install twine readme-renderer[md]
+                          pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' twine readme-renderer[md]
                         displayName: Install Twine
 
                       - task: TwineAuthenticate@1
@@ -222,7 +222,7 @@ stages:
                       - checkout: self
                       - task: UsePythonVersion@0
                       - script: |
-                          pip install -r ./eng/versioning/requirements.txt
+                          pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r ./eng/versioning/requirements.txt
                         displayName: Install versioning tool dependencies
                       - task: PythonScript@0
                         displayName: Increment package version
@@ -253,7 +253,7 @@ stages:
       - task: UsePythonVersion@0
       - script: |
           set -e
-          pip install twine
+          pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' twine
         displayName: Install Twine
 
       - template: ../steps/auth-dev-feed.yml

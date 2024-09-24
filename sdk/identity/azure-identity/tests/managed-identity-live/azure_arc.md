@@ -52,7 +52,7 @@ Set the environment variable `AZURE_IDENTITY_TEST_VAULT_URL` to the vault URI of
 
 Install `requirements.txt`:
 ```
-pip install -r requirements.txt
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r requirements.txt
 ```
 Run the managed identity tests, using the below command once with Python 2.7 and once with Python 3.5+:
 ```

@@ -102,8 +102,8 @@ Start a specific test for a package:<br/>`pytest -s sdk/service/azure-mgmt-servi
 ## pip
 
 Install a package from Github with pip, from a subfolder:<br/>
-`pip install "git+https://github.com/Azure/azure-sdk-for-python#subdirectory=sdk/service/azure-mgmt-service&egg=azure-mgmt-service"`
+`pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' "git+https://github.com/Azure/azure-sdk-for-python#subdirectory=sdk/service/azure-mgmt-service&egg=azure-mgmt-service"`
 
 Install a package from Github with pip, from a subfolder and a special branch:<br/>
-`pip install "git+https://github.com/Azure/azure-sdk-for-python@mybranch#subdirectory=sdk/service/azure-mgmt-service&egg=azure-mgmt-service"`
+`pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' "git+https://github.com/Azure/azure-sdk-for-python@mybranch#subdirectory=sdk/service/azure-mgmt-service&egg=azure-mgmt-service"`
 

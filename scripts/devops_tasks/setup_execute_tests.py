@@ -263,7 +263,7 @@ if __name__ == "__main__":
         "-x",
         "--xdist",
         default=False,
-        help=("Flag that enables xdist (requires pip install)"),
+        help=("Flag that enables xdist (requires pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/')"),
         action="store_true"
     )
 

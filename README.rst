@@ -34,21 +34,21 @@ You can install each Azure service's library individually:
 
 .. code-block:: console
 
-   $ pip install azure-batch          # Install the latest Batch runtime library
-   $ pip install azure-mgmt-storage   # Install the latest Storage management library
+   $ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-batch          # Install the latest Batch runtime library
+   $ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-mgmt-storage   # Install the latest Storage management library
 
 Preview packages can be installed using the ``--pre`` flag:
 
 .. code-block:: console
 
-   $ pip install --pre azure-mgmt-compute # will install only the latest Compute Management library
+   $ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' --pre azure-mgmt-compute # will install only the latest Compute Management library
 
 
 You can also install a set of Azure libraries in a single line using the ``azure`` meta-package. 
 
 .. code-block:: console
 
-   $ pip install azure
+   $ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure
 
 The full list of available packages and their latest version can be found on our 
 `documentation on docs.microsoft.com <https://docs.microsoft.com/python/azure/>`__

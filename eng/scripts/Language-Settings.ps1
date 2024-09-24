@@ -6,7 +6,7 @@ $BlobStorageUrl = "https://azuresdkdocs.blob.core.windows.net/%24web?restype=con
 
 function Get-python-PackageInfoFromRepo  ($pkgPath, $serviceDirectory, $pkgName)
 {
-  pip install packaging==20.4 -q -I
+  pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' packaging==20.4 -q -I
   $pkgName = $pkgName.Replace('_', '-')
   if (Test-Path (Join-Path $pkgPath "setup.py"))
   {
@@ -223,6 +223,6 @@ function SetPackageVersion ($PackageName, $Version, $ServiceDirectory, $ReleaseD
   {
     $ReleaseDate = Get-Date -Format "yyyy-MM-dd"
   }
-  pip install -r "$EngDir/versioning/requirements.txt" -q -I
+  pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r "$EngDir/versioning/requirements.txt" -q -I
   python "$EngDir/versioning/version_set.py" --package-name $PackageName --new-version $Version --service $ServiceDirectory --release-date $ReleaseDate
 }

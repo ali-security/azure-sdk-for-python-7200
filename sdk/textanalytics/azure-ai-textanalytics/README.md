@@ -66,7 +66,7 @@ For example, `https://<my-custom-subdomain>.cognitiveservices.azure.com/`.
 Install the Azure Text Analytics client library for Python with [pip][pip]:
 
 ```bash
-pip install azure-ai-textanalytics --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-ai-textanalytics --pre
 ```
 
 > Note: This version of the client library defaults to the v3.1-preview version of the service

@@ -149,7 +149,7 @@ if __name__ == "__main__":
         "-w",
         "--work-dir",
         dest="work_dir",
-        help="Location that, if present, will be used as working directory to run pip install.",
+        help="Location that, if present, will be used as working directory to run pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/'.",
     )
 
     parser.add_argument(

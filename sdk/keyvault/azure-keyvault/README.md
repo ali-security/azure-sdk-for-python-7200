@@ -14,7 +14,7 @@ of packages that provide APIs for Key Vault operations:
 Install the Azure Key Vault client libraries for Python with [pip][pip]:
 
 ```Bash
-pip install azure-keyvault
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-keyvault
 ```
 
 ## Documentation

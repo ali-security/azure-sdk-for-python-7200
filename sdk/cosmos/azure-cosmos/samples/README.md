@@ -55,7 +55,7 @@ The following are code samples that show common scenario operations with the Azu
 1. Install the latest beta version of Azure Cosmos that the samples use:
 
 ```bash
-pip install azure-cosmos
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-cosmos
 ```
 
 2. Clone or download this sample repository.

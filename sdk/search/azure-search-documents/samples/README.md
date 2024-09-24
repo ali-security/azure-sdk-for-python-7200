@@ -53,7 +53,7 @@ Then for common search index operations:
 1. Install the Azure Cognitive Search client library for Python with [pip](https://pypi.org/project/pip/):
 
    ```bash
-   pip install azure-search-documents --pre
+   pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-search-documents --pre
    ```
 
 2. Clone or download [this repository](https://github.com/Azure/azure-sdk-for-python)

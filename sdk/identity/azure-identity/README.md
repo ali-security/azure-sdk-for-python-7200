@@ -15,7 +15,7 @@ Azure SDK clients which support Azure Active Directory (AAD) token authenticatio
 Install Azure Identity with pip:
 
 ```sh
-pip install azure-identity
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity
 ```
 
 ### Prerequisites

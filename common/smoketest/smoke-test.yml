@@ -86,21 +86,21 @@ jobs:
           versionSpec: $(PythonVersion)
 
       - script: |
-          python -m pip install pip==20.0.2
+          python -m pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' pip==20.0.2
           pip --version
         displayName: pip --version
 
-      - script: pip install -r ./common/smoketest/requirements.txt --pre --no-deps --index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple
+      - script: pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r ./common/smoketest/requirements.txt --pre --no-deps --index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple
         displayName: Install requirements from dev feed without dependencies
 
-      - script: pip install -r ./common/smoketest/requirements_async.txt
+      - script: pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r ./common/smoketest/requirements_async.txt
         displayName: "Install requirements_async.txt"
         condition: and(succeeded(), eq(variables['InstallAsyncRequirements'], 'true'))
 
       - script: python ./common/smoketest/dependencies.py -r ./common/smoketest/requirements.txt | tee ./common/smoketest/requirements_dependencies.txt
         displayName: Create dependency list from installed dev packages
 
-      - script: pip install -r ./common/smoketest/requirements_dependencies.txt
+      - script: pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r ./common/smoketest/requirements_dependencies.txt
         displayName: Install dev package dependencies from PyPI
 
       - script: pip freeze

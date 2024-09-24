@@ -21,7 +21,7 @@ jobs:
           versionSpec: '$(PythonVersion)'
 
       - script: |
-          pip install -r eng/ci_tools.txt
+          pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r eng/ci_tools.txt
         displayName: 'Prep Environment'
 
       - task: PythonScript@0

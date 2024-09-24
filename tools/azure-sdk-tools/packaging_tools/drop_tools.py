@@ -116,7 +116,7 @@ def pr_message_for_package(sdk_pr, package_name):
         package_name
     )
 
-    pip_install = 'pip install {}'
+    pip_install = 'pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' {}'
     pip_wheel = 'pip wheel --no-deps {}'
 
     pr_body = "You can install the package `{}` of this PR using the following command:\n\t`{}`".format(
@@ -133,7 +133,7 @@ def pr_message_for_package(sdk_pr, package_name):
     pr_body += "\n\n"
     pr_body += "If you have a local clone of this repository, you can also do:\n\n"
     pr_body += "- `git checkout {}`\n".format(sdk_pr.head.ref)
-    pr_body += "- `pip install -e ./{}`\n".format(package_name)
+    pr_body += "- `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -e ./{}`\n".format(package_name)
     pr_body += "\n\n"
     pr_body += "Or build a wheel file to distribute for testing:\n\n"
     pr_body += "- `git checkout {}`\n".format(sdk_pr.head.ref)

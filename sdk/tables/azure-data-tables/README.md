@@ -22,7 +22,7 @@ The Azure Data Tables SDK can access an Azure Storage or CosmosDB account.
 ### Install the package
 Install the Azure Data Tables client library for Python with [pip][pip_link]:
 ```bash
-pip install --pre azure-data-tables
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' --pre azure-data-tables
 ```
 
 #### Create the client

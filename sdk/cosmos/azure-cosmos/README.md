@@ -30,7 +30,7 @@ az cosmosdb create --resource-group <resource-group-name> --name <cosmos-account
 ### Install the package
 
 ```bash
-pip install azure-cosmos
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-cosmos
 ```
 
 #### Configure a virtual environment (optional)

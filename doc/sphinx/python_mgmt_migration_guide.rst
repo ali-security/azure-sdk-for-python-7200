@@ -38,7 +38,7 @@ to see all the new Python packages.
 
 For packages that are already generally available (GA), you can directly install the package using pip. Take Azure Compute
 service for example, simply do:
-``pip install azure-mgmt-compute``
+``pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-mgmt-compute``
 
 The release history for azure-mgmt-compute can be found at `https://pypi.org/project/azure-mgmt-compute/#history <https://pypi.org/project/azure-mgmt-compute/#history>`__
 
@@ -48,7 +48,7 @@ In addition, some next-generation Python SDK management client libraries might s
 
 For those beta releases, please install the package based on the beta version number, for
 example, to install the latest preview package for BetaServiceExample, please use:
-``pip install azure-mgmt-beta-service-example==10.0.0b1``
+``pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-mgmt-beta-service-example==10.0.0b1``
 
 General Changes
 ---------------
@@ -76,7 +76,7 @@ Azure Identity for all Azure SDKs, the authentication mechanism has been
 re-designed and replaced by ``azure-identity`` library
 
 To use the new ``azure-identity`` authentication mechanism, please use
-``pip install azure-identity`` to install the package
+``pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-identity`` to install the package
 
 To the show the code snippets for the change:
 

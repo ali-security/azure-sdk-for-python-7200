@@ -27,8 +27,8 @@ steps:
   - template: /eng/common/pipelines/templates/steps/verify-agent-os.yml
 
   - script: |
-      python -m pip install pip==20.1
-      pip install -r eng/ci_tools.txt
+      python -m pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' pip==20.1
+      pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r eng/ci_tools.txt
       pip --version
       pip freeze
     displayName: 'Prep Environment'

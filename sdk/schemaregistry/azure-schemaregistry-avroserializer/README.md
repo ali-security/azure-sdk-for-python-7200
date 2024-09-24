@@ -13,7 +13,7 @@ Schema Registry schema identifiers and Avro-encoded data.
 Install the Azure Schema Registry Avro Serializer client library and Azure Identity client library for Python with [pip][pip]:
 
 ```Bash
-pip install azure-schemaregistry-avroserializer azure-identity
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-schemaregistry-avroserializer azure-identity
 ```
 
 ### Prerequisites: 

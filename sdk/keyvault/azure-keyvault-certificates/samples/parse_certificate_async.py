@@ -20,7 +20,7 @@ from cryptography.hazmat.primitives.serialization import pkcs12
 #    permissions.
 #
 # 3. azure-keyvault-certificates, azure-keyvault-secrets, azure-identity, and cryptography (v3.3+) packages
-#    (pip install these).
+#    (pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' these).
 #
 # 4. Set Environment variables AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_CLIENT_SECRET, VAULT_URL. (See
 #    https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/keyvault/azure-keyvault-certificates#authenticate-the-client)

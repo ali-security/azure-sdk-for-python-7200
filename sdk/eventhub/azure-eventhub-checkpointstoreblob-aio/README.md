@@ -21,7 +21,7 @@ Please note that this is an async library, for sync version of the Azure EventHu
 ### Install the package
 
 ```
-$ pip install azure-eventhub-checkpointstoreblob-aio
+$ pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-eventhub-checkpointstoreblob-aio
 ```
 
 ## Key concepts

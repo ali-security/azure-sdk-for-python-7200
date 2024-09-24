@@ -17,7 +17,7 @@ Read more about Azure Communication Services [here](https://docs.microsoft.com/a
 Install the Azure Communication Service Chat SDK.
 
 ```bash
-pip install --pre azure-communication-chat
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' --pre azure-communication-chat
 ```
 
 ## User Access Tokens
@@ -25,7 +25,7 @@ pip install --pre azure-communication-chat
 User access tokens enable you to build client applications that directly authenticate to Azure Communication Services. You can generate these tokens with azure.communication.administration module, and then use them to initialize the Communication Services SDKs. Example of using azure.communication.administration:
 
 ```bash
-pip install --pre azure-communication-administration
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' --pre azure-communication-administration
 ```
 
 ```python
@@ -373,7 +373,7 @@ to create a resource, then set some Environment Variables
 set AZURE_COMMUNICATION_SERVICE_ENDPOINT="https://<RESOURCE_NAME>.communcationservices.azure.com"
 set AZURE_COMMUNICATION_SERVICE_CONNECTION_STRING="<connection string of your Communication service>"
 
-pip install azure-communication-administration
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-communication-administration
 
 python samples\chat_client_sample.py
 python samples\chat_client_sample_async.py

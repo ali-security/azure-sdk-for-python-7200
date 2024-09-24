@@ -52,11 +52,11 @@ The libraries currently listed in this file include `azure-core` and `azure-iden
 These dependencies can be installed with the following command:
 
 ```cmd
-(env)azure-sdk-for-python\sdk\my-directory\my-library> pip install -r dev_requirements.txt
+(env)azure-sdk-for-python\sdk\my-directory\my-library> pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r dev_requirements.txt
 ```
 Next we will install our Python SDK to the virtual environment as an 'editable install' - this means that as we work on the implementation, we will be able to run the package as it develops, as opposed to having to periodically rebuild and reinstall.
 ```cmd
-(env)azure-sdk-for-python\sdk\my-directory\my-library> pip install -e .
+(env)azure-sdk-for-python\sdk\my-directory\my-library> pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -e .
 ```
 
 We should now be able to open an interactive Python terminal, and execute code from our new SDK
@@ -76,7 +76,7 @@ Open the directory for your library in your preferred editor, for example VSCode
 ```
 
 ## Integrate with the pytest Test Framework
-As a quick background, the Azure SDK uses the [pytest](https://docs.pytest.org/en/latest/) test runner to support creating unit and functional tests for Track 2 Azure libraries. To intall `pytest` run `pip install pytest` from your virtual environment, you can confirm the installation was successful by running `pytest -V`. The commands will run all files of the form `test_*.py` or `*_test.py` in the provided directory and its subdirectories, for more information check out the [docs](https://docs.pytest.org/en/stable/getting-started.html#run-multiple-tests).
+As a quick background, the Azure SDK uses the [pytest](https://docs.pytest.org/en/latest/) test runner to support creating unit and functional tests for Track 2 Azure libraries. To intall `pytest` run `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' pytest` from your virtual environment, you can confirm the installation was successful by running `pytest -V`. The commands will run all files of the form `test_*.py` or `*_test.py` in the provided directory and its subdirectories, for more information check out the [docs](https://docs.pytest.org/en/stable/getting-started.html#run-multiple-tests).
 
 With the pytest test suite you can provide directories or specific tests to run rather than running the entire test suite:
 ```cmd
@@ -97,7 +97,7 @@ azure-sdk-for-python\sdk\my-directory\my-library> pytest sdk/storage/azure-mgmt-
 
 ## Tox
 The Python SDK uses the [tox project](https://tox.readthedocs.io/en/latest/) to automate releases, run tests, run linters, and build our documentation. The `tox.ini` file is located at `azure-sdk-for-python/eng/tox/tox.ini` for reference. You do not need to make any changes to the tox file for tox to work with your project. Tox will create a directory (`.tox`) in the head of your branch. The first time you run tox commands it may take several moments, but subsequent runs will be quicker. To install tox run the following command from within your virtual environment.
-`(env) > pip install tox tox-monorepo`.
+`(env) > pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' tox tox-monorepo`.
 
 To run a tox command from your directory use the following commands:
 ```cmd

@@ -12,7 +12,7 @@
 Tox is the testing and virtual environment management tool that is used to verify our sdk will be installed correctly with different Python versions and interpreters. To run tox follow these instructions
 
 ```
-pip install tox tox-monorepo
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' tox tox-monorepo
 cd path/to/target/folder
 tox -c eng/tox/tox.ini
 ```

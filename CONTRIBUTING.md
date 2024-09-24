@@ -45,7 +45,7 @@ Unfortunately, the command `tox -l` only returns the _default_ test builds. The 
 
 Basic usage of `tox` within this monorepo is:
 
-1. `pip install tox tox-monorepo`
+1. `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' tox tox-monorepo`
 2. `cd` to target package folder
 3. run `tox -c path/to/tox.ini`
 
@@ -121,13 +121,13 @@ Daily dev build version of Azure sdk packages for python are available and are u
 
 ##### To install latest dev build version of a package
 ```
-pip install <package-name> --extra-index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' <package-name> --extra-index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple --pre
 ```
 
 #### To Install a specific dev build version of a package
 For e.g.
 ```
-pip install azure-appconfiguration==1.0.0b6.dev20191205001 --extra-index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-appconfiguration==1.0.0b6.dev20191205001 --extra-index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple
 ```
 
 To test a package being developed against latest dev build version of dependent packages:

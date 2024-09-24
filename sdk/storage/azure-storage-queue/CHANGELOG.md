@@ -88,7 +88,7 @@ to `inserted_on`, `next_visible_on`, `expires_on`, respectively.
   library requiring azure-core 1.0.0b1 or azure-core 1.0.0b2, you must explicitly install
   the specific version of azure-core as well. For example:
 
-  `pip install azure-core==1.0.0b2 azure-storage-queue==12.0.0b2`
+  `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-core==1.0.0b2 azure-storage-queue==12.0.0b2`
 
 
 ## 12.0.0b2 (2019-08-06)
@@ -111,7 +111,7 @@ to `inserted_on`, `next_visible_on`, `expires_on`, respectively.
   library requiring azure-core 1.0.0b1, you must explicitly install azure-core
   1.0.0b1 as well. For example:
 
-  `pip install azure-core==1.0.0b1 azure-storage-queue==12.0.0b1`
+  `pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-core==1.0.0b1 azure-storage-queue==12.0.0b1`
 
 **Fixes and improvements**
 - General refactor of duplicate and shared code.

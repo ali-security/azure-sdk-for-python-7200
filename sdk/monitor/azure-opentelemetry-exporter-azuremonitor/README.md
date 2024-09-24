@@ -17,7 +17,7 @@ The exporter for Azure Monitor allows you to export tracing data utilizing the O
 Install the Microsoft Opentelemetry exporter for Azure Monitor with [pip][pip]:
 
 ```Bash
-pip install azure-opentelemetry-exporter-azuremonitor --pre
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-opentelemetry-exporter-azuremonitor --pre
 ```
 
 ### Prerequisites: 
@@ -100,7 +100,7 @@ OpenTelemetry also supports several instrumentations which allows to instrument 
 
 This example shows how to instrument with the [requests](https://pypi.org/project/requests/) library.
 
-* Install the requests integration package using pip install opentelemetry-instrumentation-requests.
+* Install the requests integration package using pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' opentelemetry-instrumentation-requests.
 
 ```Python
 import os

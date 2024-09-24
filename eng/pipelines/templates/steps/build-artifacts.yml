@@ -27,7 +27,7 @@ steps:
       versionSpec: '2.7'
 
   - script: |
-      pip install -r eng/ci_tools.txt
+      pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r eng/ci_tools.txt
     displayName: 'Prep Py2 Environment'
 
   - task: PythonScript@0
@@ -42,7 +42,7 @@ steps:
       versionSpec: $(PythonVersion)
 
   - script: |
-      pip install -r eng/ci_tools.txt
+      pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' -r eng/ci_tools.txt
     displayName: 'Prep Environment'
 
   - template: ../steps/set-dev-build.yml

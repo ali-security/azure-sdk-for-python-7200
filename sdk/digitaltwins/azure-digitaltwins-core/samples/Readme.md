@@ -17,7 +17,7 @@ The guides mentioned above can help you get started with key elements of Azure D
 Install [azure-digitaltwins-core][pypi_package_keys] and
 [azure-identity][azure_identity_pypi] with [pip][pip]:
 ```Bash
-pip install azure-digitaltwins-core azure-identity
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-digitaltwins-core azure-identity
 ```
 [azure-identity][azure_identity] is used for Azure Active Directory
 authentication as demonstrated below.

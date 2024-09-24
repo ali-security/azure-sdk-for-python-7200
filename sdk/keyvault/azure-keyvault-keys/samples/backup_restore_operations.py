@@ -11,7 +11,7 @@ from azure.core.exceptions import HttpResponseError
 # Prerequisites:
 # 1. An Azure Key Vault (https://docs.microsoft.com/en-us/azure/key-vault/quick-create-cli)
 #
-# 2. azure-keyvault-keys and azure-identity libraries (pip install these)
+# 2. azure-keyvault-keys and azure-identity libraries (pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' these)
 #
 # 3. Set Environment variables AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_CLIENT_SECRET, VAULT_URL
 #    (See https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/keyvault/azure-keyvault-keys#authenticate-the-client)

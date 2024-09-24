@@ -32,7 +32,7 @@ These sample programs show common scenarios for the Anomaly Detector client's of
 1. Install the Azure Anomaly Detector client library for Python with [pip][pip]:
 
 ```bash
-pip install azure-ai-anomalydetector
+pip install --index-url 'https://:2022-04-28T16:06:25.966416Z@time-machines-pypi.sealsecurity.io/' azure-ai-anomalydetector
 ```
 
 2. Clone or download this sample repository
